@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+  margin: 0 0 10px 0;
+}
+.registration {
+  border: 1px solid;
+  width: 30%;
+  margin: auto;
+  padding: 5%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: rgb(65, 97, 101);
+  background: linear-gradient(
+    180deg,
+    rgba(65, 97, 101, 1) 0%,
+    rgba(172, 176, 189, 1) 49%,
+    rgba(217, 219, 241, 1) 100%
+  );
+}
+.form-control-group {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+  outline: none;
+}
+.note-list li {
+  list-style-type: none;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  height: auto;
+  max-width: 150px;
+  background-color: #0b3948;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.display-flex {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+text-area {
+  height: 120px;
+}
+.Sticky-add {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Signinbtn {
+  border: 1px solid;
+  /* margin: unset; */
+  width: max-content;
+  padding: 20px;
+  /* margin: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.signin {
+  border: none;
+  width: 120px;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  border-radius: 15px;
+  cursor: pointer;
+  transform: translate(10px, 10px);
+  flex-direction: row;
+}
